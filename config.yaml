@@ -1,0 +1,18 @@
+# Configuración inicial. Todo se ejecuta en simulación; no hay integración de órdenes reales.
+initial_cash_eur: 500.0
+risk_per_trade: 0.01
+max_open_positions: 4
+max_position_fraction: 0.30
+max_correlated_group_fraction: 0.50
+max_daily_loss_fraction: 0.03
+max_drawdown_fraction: 0.12
+commission_rate: 0.001
+slippage_rate: 0.001
+breakout_lookback: 20
+ema_fast: 20
+ema_slow: 50
+rsi_period: 14
+atr_period: 14
+stop_atr_multiple: 2.0
+reward_risk_target: 3.0
+minimum_score: 70
